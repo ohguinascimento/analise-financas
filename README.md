@@ -1,16 +1,21 @@
 # 📊 Sistema de Análise de Finanças Pessoais
 
-Este projeto é um ecossistema de ferramentas em Python para extração, processamento e visualização de dados financeiros, integrando faturas bancárias (OFX) e detalhes de compras do Mercado Livre.
+Este projeto é um ecossistema robusto em Python para extração, processamento e visualização de dados financeiros, integrando faturas bancárias (OFX) e detalhes de compras do Mercado Livre via web scraping.
 
 ## 🚀 Como Começar
 
 ### 1. Pré-requisitos
 
-Certifique-se de ter o Python instalado. Recomenda-se o uso de um ambiente virtual:
+Certifique-se de ter o Python 3.10+ instalado.
 
 ```bash
+# Clone o repositório e entre na pasta
+cd analise-financas
+
+# Crie e ative um ambiente virtual
 python -m venv .venv
-source .venv/bin/scripts/activate  # Windows: .venv\Scripts\activate
+source .venv/bin/activate  # Linux/Mac
+.venv\Scripts\activate     # Windows
 ```
 
 ### 2. Instalação de Dependências
