@@ -1,0 +1,16 @@
+# Dados financeiros (Sensível)
+*.ofx
+*.csv
+*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Ambientes e IDEs
+.env
+.vscode/
