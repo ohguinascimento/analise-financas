@@ -1,5 +1,6 @@
 # Dados financeiros (Sensível)
 *.ofx
+chrome_data/
 *.csv
 *.xlsx
 
