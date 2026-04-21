@@ -9,7 +9,10 @@ CATEGORIES_MAP = {
     '📺 Assinaturas': ['GOOGLE', 'HBO', 'RAPIDCLOUD', 'NETFLIX', 'SPOTIFY'],
     '🛍️ E-commerce': ['MERCADOLIVRE', 'SHOPEE', 'AMAZON', 'KABUM'],
     '🏋️ Saúde': ['WELLHUB', 'GYMPASS', 'ACADEMIA', 'SMARTFIT', 'DROGASIL'],
-    '👕 Vestuário': ['MODAS', 'OUTLET', 'PIREI', 'ZARA', 'H&M']
+    '👕 Vestuário': ['MODAS', 'OUTLET', 'PIREI', 'ZARA', 'H&M'],
+    '💰 Lazer': ['STEAM', 'CINEMA', 'PLAYSTATION'],
+    '🏠 EDUCACAO': ['TREINAMENT', 'ALURA'],
+
 }
 
 def get_category(memo: str, amount: float) -> str:
